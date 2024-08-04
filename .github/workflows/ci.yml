@@ -25,10 +25,23 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        cd frontend
+        npm install
 
     - name: Run tests
-      run: npm test
+      run: |
+        cd frontend
+        npm test
 
     - name: Build project
-      run: npm run build
+      run: |
+        cd frontend
+        npm run build
+
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./frontend/build
