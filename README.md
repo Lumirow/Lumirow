@@ -15,11 +15,11 @@ Lumirow/
 │   │   ├── index.html
 │   │   └── ...
 │   ├── src/
-│   │   ├── components/ # Компоненты страниц сайта
-│   │   ├── pages/ # Все страницы сайта
+│   │   ├── components/
+│   │   ├── pages/ 
 │   │   ├── App.js
 │   │   └── index.js
-│   ├── package.json # Зависимости
+│   ├── package.json
 │   └── ...
 ├── README.md
 └── .gitignore
