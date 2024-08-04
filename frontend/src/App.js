@@ -13,5 +13,5 @@ function App() {
     </Router>
   );
 }
-
+/* Март милафка(by UniMas) */
 export default App;
