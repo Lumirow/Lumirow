@@ -12,11 +12,11 @@ Lumirum/
 │   │   ├── index.html
 │   │   └── ...
 │   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
+│   │   ├── components/ # Компоненты страниц сайта
+│   │   ├── pages/ # Все страницы сайта
 │   │   ├── App.js
 │   │   └── index.js
-│   ├── package.json
+│   ├── package.json # Зависимости
 │   └── ...
 ├── README.md
 └── .gitignore
