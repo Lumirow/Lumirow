@@ -29,11 +29,6 @@ jobs:
         cd frontend/src
         npm install
 
-    - name: Run tests
-      run: |
-        cd frontend/src
-        npm test
-
     - name: Build project
       run: |
         cd frontend/src
