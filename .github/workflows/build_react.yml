@@ -28,7 +28,7 @@ jobs:
 
       - name: Build React app
         run: |
-          cd frontend
+          cd frontend/src
           npm run build
 
       - name: Zip build folder
