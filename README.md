@@ -22,6 +22,14 @@ Lumirum/
 └── .gitignore
 ```
 
+## Пояснения
+-# src/comonents - компоненты страниц сайта
+-# src/pages - все страницы сайтв
+-# public/package.json - зависимости
+
+
+
+
 <h3 align="center">Мы используем такие языки(и инструменты):</h3>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
