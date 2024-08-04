@@ -1,21 +1,15 @@
-import './index.css';
-import {useEffect} from "react";
-
-import Header from "./pages/Header/Header";
-import {Route, Routes} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
-    return (
-        <div className="App">
-            <Header />
-            <Routes>
-                <Route index element={<Header />}/>
-
-            </Routes>
-        </div>
-    );
+ return (
+   <Router>
+     <Switch>
+       <Route path="/" exact component={Home} />
+     </Switch>
+   </Router>
+ );
 }
 
-
-/* Март милафка(by UniMas) */
 export default App;
