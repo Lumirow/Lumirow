@@ -1,8 +1,8 @@
-# Lumirum - Сайт для просмотра аниме
+# Lumirow - Сайт для просмотра аниме
 
 ### Основная структура проекта:
 ```
-Lumirum/
+Lumirow/
 ├── backend/
 │   ├── config.yml
 │   └── main.go
