@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import {useEffect} from "react";
 
 import Header from "./pages/Header/Header";
