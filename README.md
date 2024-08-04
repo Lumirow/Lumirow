@@ -25,7 +25,7 @@ Lumirum/
 ## Пояснения
 ```
 src/comonents - компоненты страниц сайта
-src/pages - все страницы сайтв
+src/pages - все страницы сайта
 frontend/package.json - зависимости
 ```
 
