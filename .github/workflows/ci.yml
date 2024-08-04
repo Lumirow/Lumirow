@@ -26,17 +26,17 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd frontend
+        cd frontend/src
         npm install
 
     - name: Run tests
       run: |
-        cd frontend
+        cd frontend/src
         npm test
 
     - name: Build project
       run: |
-        cd frontend
+        cd frontend/src
         npm run build
 
     - name: Deploy to GitHub Pages
